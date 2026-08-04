@@ -1,0 +1,244 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+/* HEADER */
+
+header {
+    background: #f8f8f8;
+    padding: 15px 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: blue;
+}
+
+/* HERO */
+
+.hero {
+    text-align: center;
+    padding: 80px;
+}
+
+.hero h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: .3s;
+}
+
+.btn:hover {
+    background: darkblue;
+    transform: translateY(-3px);
+}
+
+/* ANA SAYFA ÜRÜNLER */
+
+.products {
+    padding: 40px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    transition: .3s;
+}
+
+.product-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,.15);
+}
+
+.product-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+}
+
+.price {
+    display: block;
+    margin-top: 10px;
+    color: red;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* ÜRÜNLER SAYFASI */
+
+.urunler-icerik {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 40px;
+}
+
+.urunler-icerik div {
+    width: 220px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 20px;
+    transition: .3s;
+}
+
+.urunler-icerik div:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,.15);
+}
+
+.urunler-icerik h3 {
+    margin-bottom: 15px;
+}
+
+.urunler-icerik img {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+}
+
+/* HAKKIMIZDA */
+
+.hakkimizda-icerik {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.hakkimizda-icerik p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/* İLETİŞİM */
+
+.iletisim-container {
+    padding: 40px 50px;
+}
+
+.iletisim-bilgileri h1 {
+    text-align: left;
+    font-size: 40px;
+    text-transform: none;
+}
+
+.detaylar p {
+    font-size: 20px;
+    margin: 12px 0;
+    text-align: left;
+}
+
+.detaylar a {
+    color: blue;
+    text-decoration: none;
+}
+
+.iletisim-formu {
+    margin-top: 35px;
+}
+
+.iletisim-formu h2 {
+    text-align: left;
+}
+
+.iletisim-formu form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.iletisim-formu label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.iletisim-formu input,
+.iletisim-formu textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.iletisim-formu textarea {
+    resize: vertical;
+}
+
+.iletisim-formu button {
+    padding: 12px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.iletisim-formu button:hover {
+    background: darkblue;
+}
+
+/* GENEL */
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background: #f8f8f8;
+    text-align: center;
+}
